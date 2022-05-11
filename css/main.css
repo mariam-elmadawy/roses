@@ -1,0 +1,100 @@
+    * {
+        scroll-behavior: smooth;
+    }
+    /* start nav */
+    
+    .navbar {
+        padding: 15px 0;
+    }
+    
+    .navbar-brand {
+        font-size: 30px;
+    }
+    
+    .navbar-brand span {
+        color: var(--bs-pink);
+        font-size: 20px;
+    }
+    
+    .navbar-nav .dropdown-menu {
+        top: 30px;
+        left: 70px;
+    }
+    
+    .dropdown-menu>li>a {
+        padding: 6px 20px;
+    }
+    
+    .dropdown-menu .dropdown-divider {
+        color: var(--bs-pink);
+    }
+    /* end nav */
+    /* start carsuosel */
+    
+    .carsousel-inner {
+        width: auto;
+        height: 100px;
+    }
+    
+    .carousel-caption {
+        bottom: 90px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .carousel-caption h2 {
+        padding: 10px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .carousel-caption p {
+        line-height: 2;
+        color: white;
+    }
+    /* end of carsousal */
+    /* start content */
+    
+    .section {
+        padding: 50px 0;
+    }
+    
+    .row {
+        margin: 30px;
+    }
+    
+    .info {
+        padding-top: 100px;
+    }
+    
+    h4 {
+        padding: 10px;
+        color: var(--bs-pink);
+    }
+    
+    h2 {
+        padding: 20px;
+        color: var(--bs-pink);
+    }
+    
+    p {
+        color: var(--bs-gray);
+        margin: 15px;
+    }
+    /* start joining */
+    
+    form {
+        border: 1px solid var(--bs-gray);
+        border-radius: 7px;
+        padding: 30px 20px;
+    }
+    
+    .form-control {
+        border: 1px solid var(--bs-pink);
+    }
+    
+    .form-check-input:checked,
+    .btn-primary {
+        background-color: var(--bs-pink);
+        border-color: var(--bs-pink);
+    }
+    /* end joining */
